@@ -6,3 +6,8 @@ body {
 main {
     text-align: center;
 }
+
+#submit {
+    width: 300px;
+    height: 100px;
+}
