@@ -1,1 +1,1 @@
-import panda-flip from '/panda-flip.js';
+import pandaFlip from (.src/panda-pandaFlip.js)
