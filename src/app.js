@@ -14,11 +14,11 @@ let losses = 0;
 submitFlip.addEventListener('click', () => {
     const randomNum = Math.random();
     
-//change image display
+//change image display update src 
     const flip = pandaFlip(randomNum);
-    const image = 'assets/' + flip + '.jpg';
+    const image = 'assets/' + flip;
     pandaSide.src = image;
-    
+
 //did the user guess correctly?
     let userGuess = '';
     if(headsGuess.checked) {

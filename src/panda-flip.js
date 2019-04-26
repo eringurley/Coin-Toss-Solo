@@ -1,8 +1,8 @@
 function pandaFlip(number) {
     if(number < .5){
-        return 'heads';
+        return 'pandaButt2.jpeg';
     }
-    return 'tails';
+    return 'pandaHead4.png';
 }
 
 export default pandaFlip;
