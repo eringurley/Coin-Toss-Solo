@@ -8,24 +8,32 @@
 </head>
 <link rel="stylesheet" href="styles.css">
 <body>
-    <header>Coin Toss Game</header>
+    <header>Panda Flip Game</header>
     <main>
-        <p>
-            <img id="heads" src ="assets/pandaButt2.jpeg">
+        <p class= "scoreboard">
+                <span id="wins">Wins: 0</span>
+                <span id="losses">Losses: 0</span>
         </p>
         <p>
-            <img id="tails" src ="assets/pandaHead4.png">
+            <img id="panda" src ="assets/pandaButt2.jpeg">
         </p>
         <p>
-            <label><input type="radio" name="coin-side"checked>Heads
+            <img id="heads" src ="assets/pandaHead4.png">
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="panda-side"checked>Heads
             </label>
         </p>
         <p>
-            <label><input type="radio" name="coin-side">Tail
+            <label><input type="radio" name="panda-side">Tails
             </label>
         </p>
         <p>
-            <button id="submit">Submit</button>
+        <button id="submit">Submit</button>
+        </p>
+        <p id="message">
+            Give it a whirl. 
         </p>
     </main>
     <script type="module" src=".src/app.js"></script>
