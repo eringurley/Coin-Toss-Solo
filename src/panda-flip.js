@@ -1,8 +1,8 @@
 function pandaFlip(number) {
     if(number < .5){
-        return 'tails';
+        return 'heads';
     }
-    return 'heads';
+    return 'tails';
 }
 
 export default pandaFlip;
