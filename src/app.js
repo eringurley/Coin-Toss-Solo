@@ -16,7 +16,14 @@ submitFlip.addEventListener('click', () => {
     
 //change image display update src 
     const flip = pandaFlip(randomNum);
-    const image = 'assets/' + flip;
+    let image = '';
+    if(flip === 'heads'){
+        image = './assets/pandaHead4.png';
+    }
+    else {
+        image = './assets/pandaButt2.jpeg';
+    }
+
     pandaSide.src = image;
 
 //did the user guess correctly?
@@ -38,7 +45,7 @@ submitFlip.addEventListener('click', () => {
 
     }
     else {
-        messageSays.textContent = 'Awwww!';
+        messageSays.textContent = 'Soz no.';
         losses++;
         lossesCount.textContent = 'Losses: ' + losses; 
         messageSays.classList.remove('win');
